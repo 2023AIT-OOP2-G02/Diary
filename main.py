@@ -1,9 +1,12 @@
 from diaries.DiarySample import DiarySample
 from diaries.k22036_diary import k22036_diary
+from diaries.k22138_diary import k22138_diary
 
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), k22036_diary()]
+diaries = [DiarySample(), 
+           k22036_diary(), 
+           k22138_diary()]
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
