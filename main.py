@@ -3,7 +3,7 @@ from diaries.k22036_diary import k22036_diary
 
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), k22036_diary()]
+diaries = [DiarySample(), k22036_diary(), tokage28_diary()]
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
