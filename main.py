@@ -4,7 +4,6 @@ from diaries.HondaDiary import HondaDiary
 diaries = [DiarySample(), 
            HondaDiary(),
         ]
-
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
